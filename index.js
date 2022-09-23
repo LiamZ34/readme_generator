@@ -15,7 +15,43 @@ const questions = [
         name: "license",
         message: "Select license here",
         choices: ["MIT", "GPL", "Apache 2.0"]
-    }
+    },
+    {
+        type: "input",
+        name: "Github username",
+        message: "Enter Github username here",
+    },
+    {
+        type: "input",
+        name: "Email address",
+        message: "Enter email address here",
+    },
+    {
+        type: "input",
+        name: "description",
+        message: "Enter description here",
+    },
+    {
+        type: "input",
+        name: "What command should be run to install dependencies?",
+        message: "What command should be run to install dependencies?",
+    },
+    {
+        type: "input",
+        name: "What command should be run to run tests?",
+        message: "What command should be run to run tests?",
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "What does the user need to know about using the repo?",
+    },
+    {
+        type: "input",
+        name: "contribution",
+        message: "What does the user need to know about contributing to the repo?",
+    },
+
 ];
 
 // TODO: Create a function to write README file

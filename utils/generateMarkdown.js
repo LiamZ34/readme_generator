@@ -23,11 +23,22 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
+ 
+  ## Description 
+  ${data.description}
+
 
   ## Table Of Contents
-  - [Description](#description)
+  - [License](#license)
 
-  ### Description
+  ## License
+  This project is licensed by ${data.license} license
+  
+  ## Usage
+  ${data.usage}
+
+  ## Contribution
+  ${data.contribution}}
 `;
 }
 
