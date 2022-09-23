@@ -14,16 +14,16 @@ const questions = [
         type: "list",
         name: "license",
         message: "Select license here",
-        choices: ["MIT", "GPL", "Apache 2.0"]
+        choices: ["MIT", "GPL", "Apache"]
     },
     {
         type: "input",
-        name: "Github username",
+        name: "GithubUser",
         message: "Enter Github username here",
     },
     {
         type: "input",
-        name: "Email address",
+        name: "Email",
         message: "Enter email address here",
     },
     {
@@ -33,12 +33,12 @@ const questions = [
     },
     {
         type: "input",
-        name: "What command should be run to install dependencies?",
+        name: "installation",
         message: "What command should be run to install dependencies?",
     },
     {
         type: "input",
-        name: "What command should be run to run tests?",
+        name: "tests",
         message: "What command should be run to run tests?",
     },
     {
