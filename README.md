@@ -4,6 +4,7 @@ For this assignment, we are suppose to make an application where using you can u
 
 
 thr acceptance criteria for this assignment is 
+
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
