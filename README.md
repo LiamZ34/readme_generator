@@ -20,3 +20,6 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
+
+
+![Screen Shot 2022-10-19 at 10 07 58 PM](https://user-images.githubusercontent.com/103050228/196839685-d135f4c5-5281-4d25-a1e1-260be19f502e.png)
